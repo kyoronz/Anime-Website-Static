@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<title>Sign Up Page</title>
+<link rel="stylesheet" type="text/css" href="CSS/Newscss.css"/>
+<link rel="stylesheet" type="text/css" href="Animepage.css"/>
+
+<script type="text/javascript" src="Javascript/js.js"></script>
+
+<style type="text/css">
+.inlinedisplay{
+	margin:5px 0;
+}
+.inlinedisplay p{
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+	width:20%;
+}
+.inlinedisplayinput{
+	display:inline-block;
+	vertical-align:top;
+	width:75%;
+}
+.inlinedisplayinput p{
+	display:inline-block;
+	width:2px;
+	vertical-align:top;
+}
+.inlinedisplayinput input{
+	display:inline-block;
+	vertical-align:top;
+}
+.contentcontainer{
+	padding: 0 2% 10px 2%;
+}
+</style>
+</head>
+
+<body>
+<div id="header"> <!--top-->
+	<div class="headercontainer">
+	<div id="Menu">	
+		<div class="main_nav2" style="padding-top:0.6rem">
+		<div class="logo"><a href="Home.html"><img name="logo" src="FLL.jpg"/></a></div>
+		</div>
+		<div class="main_nav">			
+			<ul><li><a href="Anime.html">News</a></li>
+				<li><a href="Forum.html">Forum</a></li>
+				<li><a href="Chatroom.html">Chatroom</a></li>
+				<li><a href="Product.html">Product</a></li>
+				<li><a href="Events.html">Events</a></li></ul>				
+		</div>
+		<div class="main_nav2"><a href="Login.html" style="border-right:thin black solid">Login</a><a href="Signup.html">Sign Up</a></div>
+	</div>
+	</div>
+</div>
+
+<div id="template" style="background-image:url('5centi2.jpg')"><!--lower-->
+<div id="templatecontainer">
+
+<div id="topcontainer"><img src="5centi.png"/></div>
+
+<div id="lowercontainer">
+
+	<div class="contenttitle"><h1>Sign up</h1></div>
+	<div class="contentcontainer">
+	<p style="margin:10px 0; text-align:center">Please fill your details below.</p>
+	<hr/>
+	<form method="post" action="#">
+	
+	<div class="inlinedisplay">
+	<p>Username</p>
+	<div class="inlinedisplayinput">
+	<p>:</p>
+	<input name="Text1" type="text" id="username">
+	</div>	
+	</div>	
+	
+	<div class="inlinedisplay">
+	<p>Password</p>
+	<div class="inlinedisplayinput">
+	<p>:</p>
+	<input name="Text2" type="password" id="passw">
+	</div>	
+	</div>	
+	
+	<div class="inlinedisplay">
+	<p>Confirm Password</p>
+	<div class="inlinedisplayinput">
+	<p>:</p>
+	<input name="Text2" type="password" id="cpassw">
+	</div>	
+	</div>	
+
+	<div class="inlinedisplay">
+	<p>Email Address</p>
+	<div class="inlinedisplayinput">
+	<p>:</p>
+	<input name="Text3" type="email">
+	</div>	
+	</div>	
+	
+	<div class="inlinedisplay">
+	<p>Birth Date</p>
+	<div class="inlinedisplayinput">
+	<p>:</p>
+	<input type="date" id="Date">
+	</div>	
+	</div>	
+	
+	<div class="inlinedisplay">
+	<p>Gender</p>
+	<div class="inlinedisplayinput">
+	<p>:</p>
+	<input name="gender" id="male" type="radio" checked="true" value="1" style="width: 37px" />Male
+	<br/><p>&nbsp;</p>
+	<input name="gender" id="female" type="radio" style="width: 37px" />Female
+	</div>
+	</div>	
+	
+	<div style="text-align:center;">
+	<input name="Submit1" type="submit" value="Register" onclick="password()">
+	</div>
+	
+	<div class="newsimagecontainer" style="margin-top:10px;"><img src="Signup.jpg"/></div>
+	
+	<p style="margin:10px 0; text-align:center">Welcome to Four Leaves Community</p>
+	<p style="margin:10px 0; text-align:center">Have fun in exploring the world of anime!</p>
+
+	</form>
+	</div>
+	
+		
+	
+	<div class="footer"><!--bottom/footer-->
+	<div class="footercontainer">
+	<div><ul>
+		<li><a href="About.html">About us</a></li>
+		<li><a href="Feedback.html">Feedback</a></li>
+		<li><a href="FAQ.html">FAQ</a></li>
+		<li><a href="Login.html">Login</a></li>
+		<li><a href="Signup.html">Sign up</a></li>
+			</ul></div>		
+			</div>
+	</div>
+		
+</div>	
+</div>	
+</body>
+</html>
