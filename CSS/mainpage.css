@@ -1,0 +1,55 @@
+﻿body{
+	background-image:url('snow.jpg');
+}
+
+.carousel-control.right, .carousel-control.left { /*image slider*/
+    background-image: none;
+    color: #f4511e;
+}
+
+.carousel-indicators li {
+    border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: bold;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+table{ /*table*/
+    border: none;
+    table-layout: fixed;
+    width: 30px;
+    height: 30px;
+}
+
+th, td {
+	font-size: x-large;
+	font-weight: bold;
+    border: none;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+}
+
+.bottommenu{
+	background-color: rgba(255,255,255,.8);
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.welcome{
+	padding-bottom:20px;
+}
+

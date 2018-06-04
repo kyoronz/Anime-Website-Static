@@ -1,0 +1,253 @@
+﻿#forumheader{
+	background-color:black;
+}
+.forumnav1{
+	width:20%;
+	padding: 1rem 0 0.1rem 0;
+	text-align:center;
+	overflow:hidden;
+}
+.forumnav1 a{
+	text-decoration:none;
+	cursor:pointer;
+}
+.forumnav1 a:link{
+	color:#FFFFFF;
+}
+.forumnav1 a:visited{
+	color:#FFFFFF;
+}
+.forumnav1 a:hover{
+	color:#66FF66;
+}
+.forummain_nav{
+	background-color:#FFFFFF;
+	width:60%;
+}
+.forummain_nav ul{
+	list-style:none;
+	margin:0;
+	padding:1rem 0 0.75rem 0;
+	display: flex;	
+	display: -webkit-box;
+    display: -ms-flexbox;       
+	-webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    overflow:hidden;
+}
+.forummain_nav ul li a{
+	padding:0.5rem;
+	font-weight:bolder;
+	text-decoration:none;
+	cursor:pointer;
+}
+.forummain_nav ul li a:link{
+	color:#FFFFFF;
+}
+.forummain_nav ul li a:visited{
+	color:#FFFFFF;
+}
+.forummain_nav ul li a:hover{
+	color:#66FF99;
+}
+.forumlogocontainer{
+	width:200px;
+	object-fit:contains;
+	padding:10px 0 10px 1%;
+	margin:10px 5% 10px 0;
+	display:block;
+	background-color:rgba(0, 0, 0, 0.3);
+}
+.forumlogocontainer img{
+	width:200px;
+	height:55px;	
+}
+#forumintrocontainer{
+	border-radius:5px;
+	width:100%;
+	background-color:rgba(0, 0, 0, 0.65);
+	margin:10px 0;
+}
+.forumintromenu{
+	padding:10px 0 10px 1%;
+}
+.forumintromenu a{
+	border-radius:5px;
+	background-color:rgba(255, 255, 255, 0.1);	
+	text-decoration:none;
+	margin:0 13px;
+	padding:5px 10px;
+	display:inline-block;
+	cursor:pointer;
+}
+.forumintromenu a:link{
+	color:#FFFFFF;
+}
+.forumintromenu a:visited{
+	color:#FFFFFF;
+}
+.forumintromenu a:hover{
+	color:#66FF99;
+	background-color:rgba(255, 255, 255, 0.15);
+}
+.forumwlcspeech{
+	padding:10px 0 10px 1%;
+}
+.forumtitlecontainer{
+	border-radius:5px;
+	width:100%;
+	background-color:rgba(0, 0, 0, 0.65);
+	margin:10px 0;
+}
+.forumtitleleft{
+	width:10%;
+	padding:10px 0 10px 1%;
+	display:inline-block;
+	text-align:center;
+}
+.forumtitleright{
+	padding:10px 0 10px 1%;
+	display:inline-block;
+}
+.forumtitleright h1{
+	font-size:25px;
+	color:#CCCCCC;
+	margin:5px 0;
+}
+.forumtitleright p{
+	color:#CCCCCC;
+	margin:5px 0;
+	font-size:12px;
+}
+.forumtitleimage{
+	width:54px;
+	height:54px;
+	margin:0;
+	padding:10px 0 10px 1%;
+	display:inline-block;
+}
+.forumtitleimage img{
+	width:100%;
+	height:100%;
+}
+.forumcontentcontainer{
+	border-radius:5px;
+	width:100%;
+	background-color:rgba(0, 0, 0, 0.65);
+	margin:10px 0;
+}
+.forumleftcontainer{
+	width:20%;
+	display:inline-block;
+	vertical-align:top;
+	padding:10px 0 10px 1%;
+	text-align:center;
+	border-right:thin #CCCCCC solid;
+}
+.forumrightcontainer{
+	width:77%;
+	display:inline-block;
+	vertical-align:top;
+	padding:10px 0 10px 1%;
+}
+.forumheader{
+	background-color:rgba(50, 50, 50, 0.5);
+}
+.forumheader p{
+	color:#FFFFFF;
+}
+.forumcomment p{
+	padding:10px 0;
+	color:#CCCCCC;
+}
+.forumwlc{
+	background-color:rgba(0, 0, 0, 0.65);
+	padding:10px 0 10px 1%;
+}
+.forumwlc p{
+	padding:10px 0;
+	color:#FFFFFF;
+}
+.forumfootercontainer{
+	border-radius:5px;
+	background-color:rgba(0, 0, 0, 0.70);
+	padding:10px;
+	margin:0;
+	margin:10px 0;
+}
+.forumfootercontainer ul{
+	list-style:none;
+	position:relative;
+	display:flex;
+	-webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;	
+	padding: 10px 20px;
+	
+}
+.forumfootercontainer ul li a{
+	text-decoration:none;
+	font-weight:bolder;
+	cursor:pointer;
+}
+.forumfootercontainer ul li a:link{
+	color:#FFFFFF;
+}
+.forumfootercontainer ul li a:visited{
+	color:#FFFFFF;
+}
+.forumfootercontainer ul li a:hover{
+	color:#66FF99;
+}
+.forumquotecontainer{
+	background-color:rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+	margin-right:10px;
+	padding:5px 10px;
+}
+.forumquote{
+	margin:0 auto;
+}
+.forumquotewriter{
+	font-size:13px;
+	margin:5px auto;
+}
+.forumcatcontainer{
+	margin:10px auto;
+	width:80%;
+}
+.forumcat{
+	background-color:rgba(0, 0, 0, 0.85);
+	padding:10px 0 10px 1%;
+}
+.forumtopic{
+	background-color:rgba(0, 0, 0, 0.65);
+	padding:10px 0 10px 1%;
+	border-bottom:thin #CCCCCC solid;
+}
+.forumtopic a{
+	text-decoration:none;
+	cursor:pointer;
+}
+.forumtopic a:link{
+	color:#CCCCCC;
+}
+.forumtopic a:visited{
+	color:#CCCCCC;
+}
+.forumtopic a:hover{
+	color:#66FF99;
+}
+.forumcommentcontainer{
+	padding:10px;
+}
+.forumcommentcontainer textarea{
+	padding:10px;
+	height:121px; 
+	width:95%;
+	margin:10px 0 10px 1%;
+	background-color:rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+	color:#FFFFFF;
+}
