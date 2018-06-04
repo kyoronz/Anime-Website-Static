@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Fourleaves</title>
+<link href="CSS/logincss.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="Animepage.css"/>
+<style type="text/css">
+#hoverimage{
+	margin:0 auto;
+	padding-top:10px;
+	background-color:rgba(0,0,0,0);
+}
+
+</style>
+<script type="text/javascript" src="Javascript/js.js"></script>
+<script language="javascript">
+	Rollimage = new Array()
+	Rollimage[0] = new Image
+	Rollimage[0].src="ttr.jpg"
+	Rollimage[1] = new Image
+	Rollimage[1].src="umbrella.jpg"
+	
+	function SwapOut() {
+		document.roll.src = Rollimage[0].src
+		return true;
+	}
+	function SwapBack() {
+		document.roll.src = Rollimage[1].src
+		return true;
+	}
+</script>
+</head>
+
+<body>
+<div id="header"> <!--top-->
+	<div class="headercontainer">
+	<div id="Menu">	
+		<div class="main_nav2" style="padding-top:0.6rem">
+		<div class="logo"><a href="Home.html"><img name="logo" src="FLL.jpg"/></a></div>
+		</div>
+		<div class="main_nav">			
+			<ul><li><a href="Anime.html">News</a></li>
+				<li><a href="Forum.html">Forum</a></li>
+				<li><a href="Chatroom.html">Chatroom</a></li>
+				<li><a href="Product.html">Product</a></li>
+				<li><a href="Events.html">Events</a></li></ul>				
+		</div>
+		<div class="main_nav2"><a href="Login.html" style="border-right:thin black solid">Login</a><a href="Signup.html">Sign Up</a></div>
+	</div>
+	</div>
+</div>
+
+<div style="background-image:url('SAO2.jpg');">
+<div id="hoverimage"> <!--hover over image-->
+	<a href="Signup.html" onmouseover="SwapOut()" onmouseout="SwapBack()"><img name="roll" src="ttr.jpg"/></a>
+</div>
+
+<div id="wrapper">
+	<form method="post" >
+		<table style="width: 40%; align:center; margin:0rem auto 1rem 241px; height: 86px">
+			<tr>
+				<td style="width: 643px; height: 26px;">Username:</td>
+				<td style="height: 26px; width: 211px;">
+				<input id="email" name="email" type="text" style="width: 210px"/></td>
+			</tr>
+			<tr>
+				<td style="width: 643px; height: 26px;">Password:</td>
+				<td style="height: 26px; width: 211px;">
+				<input id="pwd" name="Password" type="password" style="width: 210px"/></td>
+			</tr>
+			<tr>
+				<td style="width: 643px; height: 25px;">
+				<input name="Checkbox1" type="checkbox" />Remember Me</td>
+				<td style="height: 26px; width: 211px; text-align:right"><a href="Forget.html" style="text-decoration:underline">Forgot password</a></td> 
+			</tr>
+		</table>
+		<input class="submit" name="Submit" type="submit" value="Login" onclick="login()" style="width: 202px; margin-left: 312px;"/>
+	</form>
+</div>
+
+<div class="footer"><!--bottom/footer-->
+	<div class="footercontainer">
+		<div>
+			<ul>
+		<li><a href="About.html">About us</a></li>
+		<li><a href="Feedback.html">Feedback</a></li>
+		<li><a href="FAQ.html">FAQ</a></li>
+		<li><a href="Login.html">Login</a></li>
+		<li><a href="Signup.html">Sign up</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>

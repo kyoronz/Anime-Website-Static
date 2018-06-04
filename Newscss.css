@@ -1,0 +1,83 @@
+﻿.noleftrightcontainer{
+	background-color:#FFFFFF;
+	padding:0 10px 10px 10px;
+}
+.newscontentcontainer{
+	padding:10px;
+}
+.newscontent{
+	
+}
+.newscontent p{
+	margin:15px 0;
+	font-size:16px;
+}
+.newscontentintro{
+		
+}
+.newscontentintro p{
+	margin:15px 0;
+	font-style:oblique;
+}
+.newscontent ul{
+	margin:15px 0 5px 35px;
+}
+.newstitle{
+	font-size:20px;
+	font-weight:bolder;
+	border-bottom:thin #00CC66 solid;
+	padding:10px 0;
+}
+.newsvideo{
+	margin:10px 0;
+	text-align:center;
+}
+.newswithimage{
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin:15px 0 0 0;
+}
+.newsimagecontainer{
+	width:90%;
+	object-fit:contains;
+	margin:0 auto;
+}
+.newsimagecontainer img{
+	width:100%;
+	height:100%;	
+}
+.newssideimage{
+	object-fit:contains;
+}
+.newssideimage img{
+	width:100%;
+}
+.newsimagecaption{
+	width:80%;
+	text-align:center;
+	margin:0 auto;
+}
+.newsimagecaption p{
+	font-style:italic;
+}
+.newscontenttitle p{
+	font-weight:bold;
+	text-decoration:underline;
+	font-size:17px;
+}
+.newscite{
+	cursor:pointer;
+}
+.newscite a:link{
+	color:blue;
+}
+.newscite a:visited{
+	color:blue;
+}
+.newscite a:hower{
+	color:#66FF99;
+}

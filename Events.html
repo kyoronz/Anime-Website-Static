@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta charset='utf-8' />
+<title>Events</title>
+<link rel="stylesheet" type="text/css" href="CSS/eventscss.css"/>
+<link rel="stylesheet" type="text/css" href="CSS/event.css"/>
+<link rel="stylesheet" type="text/css" href="Animepage.css"/>
+
+<link href="CSS/fullcalendar.css" rel='stylesheet' />
+<link href="CSS/fullcalendar.print.css" rel='stylesheet' media='print' />
+<script src="Javascript/moment.min.js"></script>
+<script src="Javascript/jquery.min.js"></script>
+<script src="Javascript/fullcalendar.min.js"></script>
+<script>
+
+	$(document).ready(function() {
+		
+		$('#calendar').fullCalendar({
+			header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,agendaWeek,agendaDay'
+			},
+			defaultDate: '2016-05-12',
+			editable: false,
+			eventLimit: true, // allow "more" link when too many events
+			events: [
+				{
+					title: 'Anime-fiesta @ Brooklyn',
+					start: '2016-05-01'
+				},
+				{
+					title: 'Anime Fan-Art Drawing Contest',
+					start: '2016-05-07',
+					end: '2016-05-10'
+				},
+				{
+					id: 999,
+					title: 'Merchandise Giveaway 1',
+					start: '2016-05-09'
+				},
+				{
+					id: 999,
+					title: 'Merchandise Giveaway 2',
+					start: '2016-05-16'
+				},
+				{
+					title: 'Cosplay Con @ Perth City Centre',
+					start: '2016-05-11',
+					end: '2016-05-13'
+				},
+				{
+					title: 'Meet&Greet w/ Top Cosplayer',
+					start: '2016-05-12T10:30:00',
+					end: '2016-05-12T12:30:00'
+				},
+				{
+					title: 'Lunch',
+					start: '2016-05-12T12:00:00'
+				},
+				{
+					title: 'Cosplay Performance',
+					start: '2016-05-12T14:30:00'
+				},
+				{
+					title: 'Winner Announcement',
+					start: '2016-05-12T17:30:00'
+				},
+				{
+					title: 'Dinner',
+					start: '2016-05-12T20:00:00'
+				},
+				{
+					title: 'Theme Song Singing Competition',
+					start: '2016-05-25T19:00:00'
+				},
+				{
+					title: 'Japan Night Concert',
+					url: 'japannight.html',
+					start: '2016-05-28',
+					end: '2016-05-30'
+				}
+			]
+		});
+		
+	});
+
+</script>
+<style>
+
+	#calendar {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+</style>
+</head>
+
+<body>
+<div id="header"> <!--top-->
+	<div class="headercontainer">
+	<div id="Menu">	
+		<div class="main_nav2" style="padding-top:0.6rem">
+		<div class="logo"><a href="Home.html"><img name="logo" src="FLL.jpg"/></a></div>
+		</div>
+		<div class="main_nav">			
+			<ul><li><a href="Anime.html">News</a></li>
+				<li><a href="Forum.html">Forum</a></li>
+				<li><a href="Chatroom.html">Chatroom</a></li>
+				<li><a href="Product.html">Product</a></li>
+				<li><a href="Events.html">Events</a></li></ul>				
+		</div>
+		<div class="main_nav2"><a href="Login.html" style="border-right:thin black solid">Login</a><a href="Signup.html">Sign Up</a></div>
+	</div>
+	</div>
+</div>
+
+<div id="template" style="background-image:url('SAO.jpg')"><!--lower-->
+<div id="templatecontainer">
+
+<div id="topcontainer"><img src="saologo.png"/></div>
+
+<div id="lowercontainer">
+	
+	<div class="contenttitle"><h1>Events</h1></div> <!--light whenever the category match the page-->
+	<div class="contentnav">
+		<ul>
+		<li><a href="#" style="color:black;">Event Calendar</a><br/><br/><p>*Note: Next month schedules and events will be updated on the last week of this month.</p></li>
+		</ul>
+	</div>
+	
+	<div class="contentcontainer">
+	<div class="eventcontainer"><!--left-->
+		<div>
+			<div id='calendar'></div>
+		</div>		
+		</div>
+	</div>
+	
+	<div class="footer"><!--bottom/footer-->
+	<div class="footercontainer">
+	<div><ul>
+		<li><a href="About.html">About us</a></li>
+		<li><a href="Feedback.html">Feedback</a></li>
+		<li><a href="FAQ.html">FAQ</a></li>
+		<li><a href="Login.html">Login</a></li>
+		<li><a href="Signup.html">Sign up</a></li>
+	</ul></div>
+		
+	</div>
+	</div>
+		
+</div>	
+</div>
+</div>
+</body>
+
+</html>
