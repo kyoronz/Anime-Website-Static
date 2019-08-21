@@ -1,5 +1,5 @@
 <?php
 // PHP permanent URL redirection
-header("Location: /home.html");
+header("Location: /Home.html");
 exit();
 ?>
