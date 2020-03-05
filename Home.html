@@ -10,12 +10,38 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+<style>
+	#Menu{
+		display: flex;
+		padding: 10px 0;
+	}
+	#Menu .spacer{
+		flex-grow: 1;
+	}
+	.main_nav{
+		display: flex;
+		align-items: center;
+	}
+
+	.main_nav a{
+		font-weight: bolder;
+	}
+
+	.main_nav2{
+		display: flex;
+		align-items: center;
+		padding: 0 !important;
+	}
+	.main_nav2 a{
+		font-weight: bolder;
+	}
+</style>
 </head>
 
 <body>
 
 <div id="header" style="font-family:'Times New Roman', Times, serif;"> <!--top-->
-	<div class="headercontainer" style="max-width:80%;">
+	<div class="headercontainer" style="max-width:70%;">
 	<div id="Menu">	
 		<div class="main_nav2" style="padding-top:0.6rem">
 		<div class="logo"><a href="Home.html"><img name="logo" src="FLL.jpg"/></a></div>
@@ -27,6 +53,7 @@
 				<li><a href="Product.html">Product</a></li>
 				<li><a href="Events.html">Events</a></li></ul>				
 		</div>
+		<div class="spacer"></div>
 		<div class="main_nav2"><a href="Login.html" style="border-right:thin black solid">Login</a><a href="Signup.html">Sign Up</a></div>
 	</div>
 	</div>
@@ -76,10 +103,10 @@
 				<td style="height: 20px"><a href="Events.html">Events</a></td>
 			</tr>
 			<tr>
-				<td><a href="Anime.html"><img style="width:25rem; height=25rem" src="4.jpg"/></a></td>
-				<td><a href="Chatroom.html"><img style="width:25rem; height=25rem" src="naruto.jpg"/></a></td>
-				<td><a href="Product.html"><img style="width:25rem; height=25rem" src="product.jpg"/></a></td>
-				<td><a href="Events.html"><img style="width:25rem; height=25rem" src="event.jpg"/></a></td>
+				<td><a href="Anime.html"><img style="width:25rem;" src="4.jpg"/></a></td>
+				<td><a href="Chatroom.html"><img style="width:25rem;" src="naruto.jpg"/></a></td>
+				<td><a href="Product.html"><img style="width:25rem;" src="product.jpg"/></a></td>
+				<td><a href="Events.html"><img style="width:25rem;" src="event.jpg"/></a></td>
 			</tr>
 		</table>
 		
