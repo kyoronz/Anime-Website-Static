@@ -22,13 +22,13 @@ function login()
 	var passw1 = localStorage.getItem('passw');
 	if(email.value == uname1 && pwd.value == passw1)
 	{
-		window.open("home.html")
+		window.open("Home.html")
 		window.close()
 	}
 	else
 	{
 		alert("Incorrect username or password.")
-		window.open("login.html")
+		window.open("Login.html")
 		window.close()
 	}
 }
@@ -52,12 +52,12 @@ function password()
 
 function popup(){
 	alert("Thanks for the message. Your feedback has sent to us successfully. Click 'ok' to continue.")
-	window.open("home.html")
+	window.open("Home.html")
 	window.close()
 }
 
 function alert5(){
 	alert("We will send an e-mail to your e-mail address. Please kindly check your inbox.")
-	window.open("home.html")
+	window.open("Home.html")
 	window.close()
 }
